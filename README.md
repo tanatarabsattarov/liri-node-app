@@ -17,5 +17,6 @@ node liri.js concert-this <YOUR_BAND_NAME>
 ```
 
 EXAMPLE:
+
 ![Image of CONCERTS](./gifs/concert-this.gif)
 
