@@ -70,7 +70,8 @@ if (process.argv[2] === "concert-this") {
     getBand(process.argv[3]);
 };
 
-// movie-this
+// MOVIE-THIS
+
 let getMovie = (search) => {
     if (search === undefined) { search = "Mr Nobody"; }
     let url = "http://www.omdbapi.com/?t=" + search + "&y=&plot=full&tomatoes=true&apikey=trilogy";
@@ -92,7 +93,8 @@ if (process.argv[2] === "movie-this") {
     getMovie(process.argv[3]);
 };
 
-// do-what-it-says
+// DO-WHAT-IT-SAYS
+
 let doWhatItSays = () => {
     fs.readFile("random.txt", "utf8", (err, data) => {
         if (err) return err;
